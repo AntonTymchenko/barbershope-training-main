@@ -1,0 +1,27 @@
+.contact-information-division {
+  width: 625px;
+  height: 644px;
+  padding-left: 100px;
+
+  background-image: url(../images/contact/contact-bg.png);
+  background-size: cover;
+  & .subtitle {
+    color: #ffffff;
+  }
+}
+.contact-information-list {
+  width: 300px;
+  margin-bottom: 70px;
+}
+.contact-information-list-item {
+  display: flex;
+  align-items: center;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.contact-icon {
+  margin-right: 16px;
+  display: inline-block;
+}
